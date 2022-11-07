@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B92B6DE3281A81180019BEA3 /* CakeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B6DE2281A81180019BEA3 /* CakeShopApp.swift */; };
+		B92B6DE5281A81180019BEA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B6DE4281A81180019BEA3 /* ContentView.swift */; };
+		B92B6DE7281A811B0019BEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92B6DE6281A811B0019BEA3 /* Assets.xcassets */; };
+		B92B6DEA281A811B0019BEA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92B6DE9281A811B0019BEA3 /* Preview Assets.xcassets */; };
+		B92B6DF2281A85AF0019BEA3 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B6DF1281A85AF0019BEA3 /* ProductModel.swift */; };
+		B92B6DF5281A87380019BEA3 /* CakeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B6DF4281A87380019BEA3 /* CakeCard.swift */; };
+		B9736BDB281AAD5A0044FE69 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9736BDA281AAD5A0044FE69 /* CartButton.swift */; };
+		B9736BDF281AB3820044FE69 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9736BDE281AB3820044FE69 /* CartView.swift */; };
+		B9736BE2281AFFC00044FE69 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9736BE1281AFFC00044FE69 /* CartManager.swift */; };
+		B9736BE4281B9AFD0044FE69 /* CartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9736BE3281B9AFD0044FE69 /* CartRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B92B6DDF281A81180019BEA3 /* CakeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92B6DE2281A81180019BEA3 /* CakeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeShopApp.swift; sourceTree = "<group>"; };
+		B92B6DE4281A81180019BEA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B92B6DE6281A811B0019BEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92B6DE9281A811B0019BEA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B92B6DF1281A85AF0019BEA3 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		B92B6DF4281A87380019BEA3 /* CakeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCard.swift; sourceTree = "<group>"; };
+		B9736BDA281AAD5A0044FE69 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		B9736BDE281AB3820044FE69 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B9736BE1281AFFC00044FE69 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		B9736BE3281B9AFD0044FE69 /* CartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B92B6DDC281A81180019BEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B92B6DD6281A81180019BEA3 = {
+			isa = PBXGroup;
+			children = (
+				B92B6DE1281A81180019BEA3 /* CakeShop */,
+				B92B6DE0281A81180019BEA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B92B6DE0281A81180019BEA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B92B6DDF281A81180019BEA3 /* CakeShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B92B6DE1281A81180019BEA3 /* CakeShop */ = {
+			isa = PBXGroup;
+			children = (
+				B92B6DE2281A81180019BEA3 /* CakeShopApp.swift */,
+				B9736BE0281AFF9D0044FE69 /* Manager */,
+				B97927BE281AA3480014E54D /* Views */,
+				B92B6DF3281A870A0019BEA3 /* Components */,
+				B92B6DF0281A858A0019BEA3 /* Models */,
+				B92B6DE6281A811B0019BEA3 /* Assets.xcassets */,
+				B92B6DE8281A811B0019BEA3 /* Preview Content */,
+			);
+			path = CakeShop;
+			sourceTree = "<group>";
+		};
+		B92B6DE8281A811B0019BEA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B92B6DE9281A811B0019BEA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B92B6DF0281A858A0019BEA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B92B6DF1281A85AF0019BEA3 /* ProductModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B92B6DF3281A870A0019BEA3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B92B6DF4281A87380019BEA3 /* CakeCard.swift */,
+				B9736BDA281AAD5A0044FE69 /* CartButton.swift */,
+				B9736BE3281B9AFD0044FE69 /* CartRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B9736BE0281AFF9D0044FE69 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B9736BE1281AFFC00044FE69 /* CartManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B97927BE281AA3480014E54D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B92B6DE4281A81180019BEA3 /* ContentView.swift */,
+				B9736BDE281AB3820044FE69 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B92B6DDE281A81180019BEA3 /* CakeShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92B6DED281A811B0019BEA3 /* Build configuration list for PBXNativeTarget "CakeShop" */;
+			buildPhases = (
+				B92B6DDB281A81180019BEA3 /* Sources */,
+				B92B6DDC281A81180019BEA3 /* Frameworks */,
+				B92B6DDD281A81180019BEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CakeShop;
+			productName = CakeShop;
+			productReference = B92B6DDF281A81180019BEA3 /* CakeShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B92B6DD7281A81180019BEA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B92B6DDE281A81180019BEA3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = B92B6DDA281A81180019BEA3 /* Build configuration list for PBXProject "CakeShop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B92B6DD6281A81180019BEA3;
+			productRefGroup = B92B6DE0281A81180019BEA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B92B6DDE281A81180019BEA3 /* CakeShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B92B6DDD281A81180019BEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92B6DEA281A811B0019BEA3 /* Preview Assets.xcassets in Resources */,
+				B92B6DE7281A811B0019BEA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B92B6DDB281A81180019BEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9736BDF281AB3820044FE69 /* CartView.swift in Sources */,
+				B92B6DE5281A81180019BEA3 /* ContentView.swift in Sources */,
+				B9736BE4281B9AFD0044FE69 /* CartRow.swift in Sources */,
+				B9736BE2281AFFC00044FE69 /* CartManager.swift in Sources */,
+				B92B6DF2281A85AF0019BEA3 /* ProductModel.swift in Sources */,
+				B92B6DE3281A81180019BEA3 /* CakeShopApp.swift in Sources */,
+				B92B6DF5281A87380019BEA3 /* CakeCard.swift in Sources */,
+				B9736BDB281AAD5A0044FE69 /* CartButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B92B6DEB281A811B0019BEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B92B6DEC281A811B0019BEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B92B6DEE281A811B0019BEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CakeShop/Preview Content\"";
+				DEVELOPMENT_TEAM = DGDF8WCX8V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CakeShop.swift.CakeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B92B6DEF281A811B0019BEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CakeShop/Preview Content\"";
+				DEVELOPMENT_TEAM = DGDF8WCX8V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CakeShop.swift.CakeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B92B6DDA281A81180019BEA3 /* Build configuration list for PBXProject "CakeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92B6DEB281A811B0019BEA3 /* Debug */,
+				B92B6DEC281A811B0019BEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92B6DED281A811B0019BEA3 /* Build configuration list for PBXNativeTarget "CakeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92B6DEE281A811B0019BEA3 /* Debug */,
+				B92B6DEF281A811B0019BEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B92B6DD7281A81180019BEA3 /* Project object */;
+}
