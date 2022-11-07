@@ -1,4 +1,4 @@
-# SwiftUI-2.0-CakePricing-Cart
+# SwiftUI-CakePricing-Cart
 #HomeView
 
 <img width="468" alt="Screenshot 2022-11-07 at 12 23 13 PM" src="https://user-images.githubusercontent.com/35794198/200287860-aac268d8-e891-490a-8dce-7d611dcf0e6d.png">
